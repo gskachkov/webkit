@@ -1,3 +1,0 @@
-CONSOLE MESSAGE: Did not parse stylesheet at 'http://localhost:8800/common/css-red.txt' because non CSS MIME types are not allowed in strict mode.
-FAIL: Timed out waiting for notifyDone to be called
-

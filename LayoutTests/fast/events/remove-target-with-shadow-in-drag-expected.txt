@@ -1,3 +1,0 @@
-CONSOLE MESSAGE: line 34: TypeError: Type error
-CONSOLE MESSAGE: line 34: TypeError: Type error
-PASS. DRT didn't crash.
