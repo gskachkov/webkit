@@ -1,0 +1,9 @@
+This test checks the different size options for absolutely positioned grid items.
+
+PASS
+PASS
+PASS
+PASS
+PASS
+PASS
+PASS
