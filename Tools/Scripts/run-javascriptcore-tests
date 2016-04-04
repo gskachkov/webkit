@@ -209,16 +209,11 @@ sub runJSCStressTests
     my @testList;
     if ($runJSCStress) {
         @testList = (
-            "PerformanceTests/SunSpider/tests/sunspider-1.0",
-            "PerformanceTests/JetStream/cdjs/cdjs-tests.yaml",
             "Source/JavaScriptCore/tests/executableAllocationFuzz.yaml",
             "Source/JavaScriptCore/tests/exceptionFuzz.yaml",
-            "PerformanceTests/SunSpider/no-architecture-specific-optimizations.yaml",
-            "PerformanceTests/SunSpider/tests/v8-v6",
             "Source/JavaScriptCore/tests/mozilla/mozilla-tests.yaml",
             "Source/JavaScriptCore/tests/stress",
             "LayoutTests/js/regress/script-tests",
-            "PerformanceTests/SunSpider/profiler-test.yaml",
             "LayoutTests/jsc-layout-tests.yaml",
             "Source/JavaScriptCore/tests/typeProfiler.yaml",
             "Source/JavaScriptCore/tests/controlFlowProfiler.yaml",
@@ -283,7 +278,7 @@ sub runJSCStressTests
     if ($makeRunner) {
         push(@jscStressDriverCmd, "--make-runner");
     }
-    
+
     if ($filter) {
         push(@jscStressDriverCmd, "--filter");
         push(@jscStressDriverCmd, $filter);
